@@ -1,6 +1,9 @@
 /* universal selector */
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
   }
 
 /* Element Selector*/
@@ -30,4 +33,8 @@ figure {
 /* ID Selector */
 #contact-section {
   background-color: #f0ead6;
+}
+img{
+  width: 300px;
+  height: 400px;
 }
